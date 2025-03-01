@@ -1,0 +1,37 @@
+1. Which of the following are operators, and which are values? *, 'hello', -88.8, -, /, +, 5,
+   - The operators are : *, -, +
+   - The values are : 'hello', -88.88 and 5
+
+2. Which of the following is a variable, and which is a string? spam, 'spam'
+  - Spam : variable 
+  -'spam' : string
+
+3. Name three data types.
+  - int, floating-point numbers and strings
+
+4. What is an expression made up of? What do all expressions do?
+  - Expressions are combinations of literals, variables and values that can be evaluated to produce a value
+  - Expressions produce a value 
+
+5. This chapter introduced assignment statements, like spam = 10. What is the difference between an expression and a statement?
+  - An expression evaluates to a value, while a statement does something E.g - 2 * 2 is an expression that evaluates to 4, while print(2 * 2) is a statement that prints the value 4 to the screen
+
+6. What does the variable bacon contain after the following code runs?
+  bacon = 20
+  bacon + 1
+  -bacon is going to contain 20, bacon + 1 computes 21, but since it doesn't assign the new value to bacon, then we still retain the value 20 of bacon. 
+   A better expression would have been - 'bacon = bacon + 1' or bacon += 1
+
+7. What should the following two expressions evaluate to? 'spam' + 'spamspam', 'spam' * 3
+  'spam' + 'spamspam' evaluates to 'spamspamspam'
+  'spam' * 3 - this will throw the same thing as the first expression 'spamspamspam'
+
+8. Why is eggs a valid variable name while 100 is invalid?
+   - Because numbers cannot be variable names, it will lead to a syntax error
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+  - The str(), int(), and float() Functions
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+- it causes an error because you cannot concatenate a string and an integer. to solve it, you can stringify 99 to '99'
