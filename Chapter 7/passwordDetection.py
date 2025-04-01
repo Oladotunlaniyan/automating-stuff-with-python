@@ -1,12 +1,16 @@
 import re
 
 def validPassword(password_str):
-    passwordRegex = re.compile(r'[A-Z][a-z][0-9]\d{8,}')
+    passwordRegex = re.compile(r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$')
     mo = passwordRegex.search(password_str)
 
 
-    print('Enter your password :')
+print('Enter your password :')
 
-    mo = input()
+mo = input()
 
-    if mo  
+if validPassword(mo):
+    print('Your password is strong.')
+else:
+    print('Your password is weak. Please choose a stronger password.')
+
