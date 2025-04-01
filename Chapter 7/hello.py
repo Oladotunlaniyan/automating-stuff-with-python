@@ -32,7 +32,7 @@
 # print('Done')
 
 
-import re 
+# import re 
 
 # phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 # mo = phoneNumRegex.search('My number is 415-555-4242.')
@@ -95,8 +95,23 @@ import re
 # print(mo2.group())  
 # print(mo3.group())
 
-# phoneNumRegex = re.compile(r'(\d\d\d)-(\d\d\d)-(\d\d\d\d)')
-# mo = phoneNumRegex.findall('Cell: 415-555-9999 Work: 212-555-0000')
+# phoneNumRegex = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')
+# mo = phoneNumRegex.search('My number is 415-555-4242')
+
+# print(mo.group(0))
+# print(mo.group(1))
+# print(mo.group(2))
+
+# numRegex = re.compile(r'[A-Z][a-z]*\sWatanabe')
+
+# mo = numRegex.search('Qawi Watanabe')
+
+# newRegex = re.compile(r'(Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\.', re.I)
+# mo = newRegex.search('Alice eats baseballs.')
+
+# print(mo.group())
+
+
 # print(mo)
 
 # xmasRegex = re.compile(r'\d+\s\w+')
