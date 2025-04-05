@@ -40,17 +40,84 @@ import os
 
 # helloFile = open(Path.home()/'spam.txt')
 
-baconFile = open('bacon.txt','w')
-baconFile.write('Hello, world!\n')
-baconFile.close()
+# baconFile = open('bacon.txt','w')
+# baconFile.write('Hello, world!\n')
+# baconFile.close()
 
-baconFile = open('bacon.txt', 'a')
-baconFile.write('Bacon is not a vegetable.')
+# baconFile = open('bacon.txt', 'a')
+# baconFile.write('Bacon is not a vegetable.')
 
-baconFile.close()
+# baconFile.close()
 
-content = open('bacon.txt')
-print(baconFile.read())
-baconFile.close()
+# content = open('bacon.txt')
+# print(baconFile.read())
+# baconFile.close()
 
-print(content)
+# print(content)
+
+# p = Path('bacon.txt')
+
+# print(p.write_text('Hello, woorld!'))
+
+# print(p.read_text())
+
+# helloContent = helloFile.read()
+
+# print(helloContent)
+
+
+# sonnetFile = open(Path.home()/ 'C:/Users/Abdul-Qawi/Documents/The Code/python/automating-stuff-with-python/Chapter 9/sonnet29.txt')
+
+# print(sonnetFile.readlines())
+
+# baconFile = open('bacon.txt', 'w')
+# print(baconFile.write('Hello, world!\n'))
+
+# baconFile.close()
+
+# baconFile = open('bacon.txt', 'a')
+
+# print(baconFile.write('Bacon is not a vegetable.'))
+
+# baconFile.close()
+
+# baconFile = open('bacon.txt', 'a')
+
+# baconFile.write('Bacon is not a vegetable.')
+
+# baconFile.close()
+
+# baconFile = open('bacon.txt')
+
+# content = baconFile.read()
+
+# baconFile.close()
+
+# print(content)
+
+import shelve
+
+# shelfFile = shelve.open('mydata')
+
+# cats = ['Zophie', 'Pooka', 'Simon']
+
+# shelfFile['cats'] = cats
+# shelfFile.close()
+
+
+# shelfFile = shelve.open('mydata')
+
+# print(type(shelfFile))
+
+# shelfFile = shelve.open('mydata')
+
+# print(list(shelfFile.keys()))
+
+# print (list(shelfFile.values()))
+
+
+# import pprint
+
+# cats = [{'name':'Zophie', 'desc':'chubby'}, {'name': 'Pooka', 'desc':'fluffy'}]
+
+# print(pprint.pformat(cats))
