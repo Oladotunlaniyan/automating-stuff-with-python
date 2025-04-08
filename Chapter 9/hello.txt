@@ -1,0 +1,35 @@
+1.What is a relative path relative to ?
+it is relative to the current directory 
+
+2.What does an absolute path start with?
+It starts with the root directory 
+
+3.What does Path('C:/Users') / 'Al' evaluate to on Windows?
+evaluates to C:/Users/Al
+
+4.What does 'C:/Users' / 'Al' evaluate to on Windows?
+evaluates to C:/Users/Al
+
+5.What do the os.getcwd() and os.chdir() functions do?
+os.getwd returns the current working directory as a string
+os.chdir() function changes the working directory to the specified path 
+
+6. What are the . and .. folders?
+"." represents the current directory, and ".." represents the parent directory.
+
+7.In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+dir is bacon 
+base spam.txt
+
+8.  What are the three “mode” arguments that can be passed to the open() function?
+The three most common "mode" arguments that can be passed to the open() function in Python are 'r', 'w', and 'a'
+
+9. What happens if an existing file is opened in write mode?
+If an existing file is opened in write mode ('w'), its contents are erased and the file pointer is placed at the beginning of the file, allowing new data to be written from the start
+
+10. hat is the difference between the read() and readlines() methods?
+The read() method reads the entire content of a file as a single string or bytes object, depending on the file mode 
+whereas readlines() reads the entire file and returns a list where each element is a line from the file.
+
+11. What data structure does a shelf value resemble?
+it resembles a dictionary value 
