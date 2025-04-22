@@ -1,0 +1,22 @@
+1.What does the openpyxl.load_workbook() function return?
+It returns a Workbook sheet
+
+2.What does the wb.sheetnames workbook attribute contain?
+It contains a Worksheet 
+
+3.How would you retrieve the Worksheet object for a sheet named 'Sheet1'?
+Run wb['Sheet1]
+
+4.How would you retrieve the Worksheet object for the workbook’s active sheet?
+Use wb.active
+
+5. How would you retrieve the value in the cell C5?
+sheet['C5'].value or sheet.cell(row=5, column=3).value
+
+6. How would you set the value in the cell C5 to "Hello"?
+sheet['C5'] = 'Hello' or sheet.cell(row=5, column=3).value = 'Hello'
+
+7. How would you retrieve the cell’s row and column as integers?
+ cell.row and cell.column
+
+8. What do the sheet.max_column and sheet.max_row sheet attributes hold, and what is the data type of these attributes?
