@@ -10,4 +10,3 @@
 # ss2.sheetTitles    # ss2 now contains a copy of ss1's Sheet1.
 # ('Sheet1', 'Copy of Sheet1')
 
-
