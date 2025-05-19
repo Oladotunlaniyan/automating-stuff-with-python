@@ -1,0 +1,15 @@
+1. A reference moment that many date and time programs use. The moment is January 1, 1970, UTC.
+
+2. time.time()
+
+3. time.sleep(5)
+
+4. It returns the closest integer to the argument passed. For example, round(2.4) returns 2.
+
+5. A datetime object represents a specific moment in time. A timedelta object represents a duration of time.
+
+6. Run datetime.datetime(2019, 1, 7).weekday(), which returns 0. This means Monday, as the datetime module uses 0 for Monday, 1 for Tuesday, and so on up to 6 for Sunday.
+
+7. threadObj = threading.Thread(target=spam) threadObj.start()
+
+8. Make sure that code running in one thread does not read or write the same variables as code running in another thread.

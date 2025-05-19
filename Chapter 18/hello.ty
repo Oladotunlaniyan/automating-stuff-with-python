@@ -1,0 +1,19 @@
+1. SMTP and IMAP, respectively
+
+2. smtplib.SMTP(), smtpObj.ehlo(), smptObj.starttls(), and smtpObj.login()
+
+3. imapclient.IMAPClient() and imapObj.login()
+
+4. A list of strings of IMAP keywords, such as 'BEFORE <date>', 'FROM <string>', or 'SEEN'
+
+5. Assign the variable imaplib._MAXLINE a large integer value, such as 10000000.
+
+6. The pyzmail module reads downloaded emails.
+
+7. The credentials.json and token.json files tell the EZGmail module which Google account to use when accessing Gmail.
+
+8. A message represents a single email, while a back-and-forth conversation involving multiple emails is a thread.
+
+9. Include the 'has:attachment' text in the string you pass to search().
+
+10. You will need the Twilio account SID number, the authentication token number, and your Twilio phone number.
