@@ -1,0 +1,25 @@
+1. Move the mouse to the upper-left corner of the screen, that is, the (0, 0) coordinates.
+
+2. pyautogui.size() returns a tuple with two integers, for the width and height of the screen.
+
+3. pyautogui.position() returns a tuple with two integers, for the x- and y-coordinates of the mouse cursor.
+
+4. The moveTo() function moves the mouse to absolute coordinates on the screen, while the move() function moves the mouse relative to the mouse’s current position.
+
+5. pyautogui.dragTo() and pyautogui.drag()
+
+6. pyautogui.typewrite('Hello, world!')
+
+7. Either pass a list of keyboard key strings to pyautogui.write() (such as 'left') or pass a single keyboard key string to pyautogui.press().
+
+8. pyautogui.screenshot('screenshot.png')
+
+9. pyautogui.PAUSE = 2
+
+10. You should use Selenium for controlling a web browser instead of PyAutoGUI.
+
+11. PyAutoGUI clicks and types blindly and cannot easily find out if it’s clicking and typing into the correct windows. Unexpected pop-up windows or errors can throw the script off track and require you to shut it down.
+
+12. Call the pyautogui.getWindowsWithTitle('Notepad') function.
+
+13. Run w = pyatuogui.getWindowsWithTitle('Firefox'), and then run w.activate().

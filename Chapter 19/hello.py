@@ -40,3 +40,22 @@
 # im.save('text.png')
 
 
+#! python3
+# resizeAndAddLogo.py - Resizes all images in current working directory to fit
+# in a 300x300 square, and adds catlogo.png to the lower-right corner.
+
+# import os
+# from PIL import Image
+
+#      # Check if image needs to be resized.
+# if width > SQUARE_FIT_SIZE and height > SQUARE_FIT_SIZE:
+# # Calculate the new width and height to resize to.
+#     if width > height:
+#             height = int((SQUARE_FIT_SIZE / width) * height)
+#             width = SQUARE_FIT_SIZE
+#     else:
+#         width = int((SQUARE_FIT_SIZE / height) * width)
+#         height = SQUARE_FIT_SIZE
+# # Resize the image.
+#         print('Resizing %s...' % (filename))
+#         im = im.resize((width, height))
