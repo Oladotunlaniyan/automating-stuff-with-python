@@ -1,4 +1,7 @@
 # automating-stuff-with-python
-A repo im using to learn python
+A repo I using to learn python
 
-hoping to finish by Q2
+Successfully finished ✅
+
+- Over the course of the book I have learnt basic data types and basic automating scripts in Python
+ 
